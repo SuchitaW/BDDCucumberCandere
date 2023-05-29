@@ -1,0 +1,154 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Navigation to the URL",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8639877800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigate to URL and open the landing page",
+            "match": {
+              "location": "stepdef.StepDef.user_navigate_to_url_and_open_the_landing_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-29T05:47:52.826Z",
+        "before": [
+          {
+            "output": [
+              "Browser get invoked"
+            ],
+            "result": {
+              "duration": 3968604400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdef.StepDef.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 51,
+        "name": "User is able to Open the browser, navigate to the URL and Search for Product",
+        "description": "",
+        "id": "e-commerce-jewellery-website-healthcheck;user-is-able-to-open-the-browser--navigate-to-the-url-and-search-for-product",
+        "after": [
+          {
+            "output": [
+              "Test case get passed, no screenshot is captured"
+            ],
+            "result": {
+              "duration": 4985700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdef.StepDef.captureScreenshot(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "output": [
+              "Browser is quit"
+            ],
+            "result": {
+              "duration": 471042800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdef.StepDef.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "output": [
+              "Base URL -\u003e https://www.candere.com/   title validation is successful",
+              "User navigated to the landing page of the application"
+            ],
+            "result": {
+              "duration": 997086500,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User navigated to the home application url",
+            "match": {
+              "location": "stepdef.StepDef.user_navigated_to_the_home_application_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11430846500,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "User Search for product on search bar \"ring\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ring\"",
+                  "offset": 38
+                }
+              ],
+              "location": "stepdef.StepDef.user_search_for_product_on_search_bar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58393300,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Search Result page is displayed with title contains \" \u0027ring\u0027\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\" \u0027ring\u0027\"",
+                  "offset": 52
+                }
+              ],
+              "location": "stepdef.StepDef.search_result_page_is_displayed_with_title_contains(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@healthCheck"
+          },
+          {
+            "name": "@Searchprod1"
+          }
+        ]
+      }
+    ],
+    "name": "E-Commerce Jewellery website healthcheck",
+    "description": "",
+    "id": "e-commerce-jewellery-website-healthcheck",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/Candere.feature",
+    "tags": [
+      {
+        "name": "@healthCheck",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
